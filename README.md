@@ -7,11 +7,6 @@ This project is about creating a server-side program that can create a TOTP serv
 
 ![Demo QR](https://github.com/karisti/totp-management/blob/main/demo2.png?raw=true)
 
-## Lessons
-- TOTP usage
-- TOTP creation
-- TOTP verification
-
 ## Prerequisites
 - TOTP app that can scan QR codes
 
@@ -19,6 +14,11 @@ This project is about creating a server-side program that can create a TOTP serv
 1. Run `python ./totp.py`
 2. Scan QR code on a TOTP app
 3. Verify codes
+
+## Lessons
+- TOTP usage
+- TOTP creation
+- TOTP verification
 
 ## Resources
 - [How HOTP and TOTP work](https://www.youtube.com/watch?v=46AKWNOJ3-Y "How HOTP and TOTP work")
