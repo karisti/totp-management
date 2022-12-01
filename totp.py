@@ -4,13 +4,23 @@
 	@Links: https://github.com/karisti
 '''
 
-import pyotp, qrcode
 from PIL import Image
+import pyotp, qrcode
+import sys, signal
 
 
+############ Setup variables ############
 
 APP_NAME = "YOUR APP NAME"
 USER_NAME = 'user@domain.com'
+
+#########################################
+
+def sig_handler(sig, frame):
+	print("\n\nExiting...")
+	sys.exit(1)
+
+signal.signal(signal.SIGINT, sig_handler)
 
 
 
