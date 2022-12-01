@@ -6,7 +6,6 @@
 This project is about creating a server-side program that can create a TOTP service for a given user. To do this, it will create a URI for the user using a random personal secret, and represent it as a QR code. User can scan this QR code on his favorite TOTP app and he will get the valid codes. This program also allows to check if those codes are valid.
 
 ![Demo QR](https://github.com/karisti/totp-management/blob/main/demo2.png?raw=true)
-![Demo Latch](https://github.com/karisti/totp-management/blob/main/demo3.png?raw=true)
 
 ## Lessons
 - TOTP usage
